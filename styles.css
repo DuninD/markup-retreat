@@ -1,1 +1,12 @@
-/* Пиши стили тут */
+.rating:hover > img {
+    content: url("img/star.svg");
+}
+
+.rating > img:hover ~ img {
+    content: url("img/star-empty.svg");
+}
+
+img {
+    width: 10%;
+    height: 10%;
+}
